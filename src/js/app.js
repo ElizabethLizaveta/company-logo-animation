@@ -2,12 +2,10 @@
 //
 // This file will be compiled into app.js and will not be minified.
 // Feel free with using ES6 here.
-
-import DE from './modules/dots';
+import dots from './modules/ dots';
 
 (($) => {
-  // When DOM is ready
   $(() => {
-    DE.dotsEffect();
+    dots.init();
   });
 })(jQuery);
