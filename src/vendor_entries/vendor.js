@@ -6,4 +6,5 @@ module.exports = [
   './node_modules/jquery/dist/jquery.js',
   './node_modules/gsap/src/minified/TweenMax.min.js',
   './node_modules/gsap/src/minified/TimelineMax.min.js',
+  './node_modules/gsap/umd/Draggable.js',
 ];

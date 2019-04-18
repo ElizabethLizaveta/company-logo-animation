@@ -3,6 +3,8 @@
 // Note: If you use a framework that includes base styling then you need to remove this file.
 
 html {
+  height: 100%;
+  width: 100%;
 	box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -10,11 +12,11 @@ html {
 }
 
 body {
-  @include font-smoothing(on);
-  color: map-get($base, 'base-text-color');
-  background: map-get($base, 'base-background-color');
-  font: #{map-get($base, 'base-font-size')}/#{map-get($base, 'base-line-height')} #{map-get($base, 'base-font-family')};
-  min-width: map-get($base, base-min-width);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(60, 60, 65);
+  font-family: 'Fjalla One', sans-serif;
 }
 
 // adaptive images
