@@ -50,7 +50,7 @@
     "gulp-util": "^3.0.8",
     "htmlhint-stylish": "^1.0.3",
     "imagemin-pngquant": "^5.0.0",
-    "node-notifier": "^5.0.2",
+    "node-notifier": "^8.0.1",
     "path": "^0.12.7",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^2.0.0"
